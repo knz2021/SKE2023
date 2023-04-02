@@ -268,3 +268,13 @@ function clickDisplay54() {
   element.innerHTML = "５４　伝道3章11節";
   element.style.backgroundColor = "pink";
 }
+function clickDisplay55() {
+  const element = document.getElementById("text-button53");
+  element.innerHTML = "５５　使徒8章5節";
+  element.style.backgroundColor = "pink";
+}
+function clickDisplay56() {
+  const element = document.getElementById("text-button54");
+  element.innerHTML = "５６　統治体とギレアデ教訓者";
+  element.style.backgroundColor = "pink";
+}
