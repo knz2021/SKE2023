@@ -269,12 +269,17 @@ function clickDisplay54() {
   element.style.backgroundColor = "pink";
 }
 function clickDisplay55() {
-  const element = document.getElementById("text-button53");
+  const element = document.getElementById("text-button55");
   element.innerHTML = "５５　使徒8章5節";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay56() {
-  const element = document.getElementById("text-button54");
+  const element = document.getElementById("text-button56");
   element.innerHTML = "５６　統治体とギレアデ教訓者";
+  element.style.backgroundColor = "pink";
+}
+function clickDisplay57() {
+  const element = document.getElementById("text-button57");
+  element.innerHTML = "５７　使徒16章15節，フィリピ4章16節";
   element.style.backgroundColor = "pink";
 }
