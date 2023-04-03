@@ -293,3 +293,8 @@ function clickDisplay59() {
   element.innerHTML = "５９　「家の？」へブライ3:2-5";
   element.style.backgroundColor = "pink";
 }
+function clickDisplay60() {
+  const element = document.getElementById("text-button60");
+  element.innerHTML = "６０　コリ一14:40";
+  element.style.backgroundColor = "pink";
+}
