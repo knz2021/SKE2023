@@ -1,6 +1,6 @@
 function clickDisplay1() {
   const element = document.getElementById("text-button1");
-  element.innerHTML = "１　食べる前3章）";
+  element.innerHTML = "１　食べる前（創3章）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay2() {
@@ -290,6 +290,6 @@ function clickDisplay58() {
 }
 function clickDisplay59() {
   const element = document.getElementById("text-button59");
-  element.innerHTML = "５９　へブライ3:2-5";
+  element.innerHTML = "５９　「家の？」へブライ3:2-5";
   element.style.backgroundColor = "pink";
 }
