@@ -295,6 +295,6 @@ function clickDisplay59() {
 }
 function clickDisplay60() {
   const element = document.getElementById("text-button60");
-  element.innerHTML = "６０　コリ一14:40";
+  element.innerHTML = "６０　コリ一14:40,民数1:52";
   element.style.backgroundColor = "pink";
 }
