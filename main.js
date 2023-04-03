@@ -303,3 +303,13 @@ function clickDisplay61() {
   element.innerHTML = "６１　コリ一14:40,民数1:52";
   element.style.backgroundColor = "pink";
 }
+function clickDisplay62() {
+  const element = document.getElementById("text-button62");
+  element.innerHTML = "６２　市民＋哲学＋伝統（ローマ12:2）";
+  element.style.backgroundColor = "pink";
+}
+function clickDisplay63() {
+  const element = document.getElementById("text-button63");
+  element.innerHTML = "６３　伝道4:12";
+  element.style.backgroundColor = "pink";
+}
