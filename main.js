@@ -298,3 +298,8 @@ function clickDisplay60() {
   element.innerHTML = "６０　コリ一14:40,民数1:52";
   element.style.backgroundColor = "pink";
 }
+function clickDisplay61() {
+  const element = document.getElementById("text-button61");
+  element.innerHTML = "６１　コリ一14:40,民数1:52";
+  element.style.backgroundColor = "pink";
+}
