@@ -1,6 +1,6 @@
 function clickDisplay1() {
   const element = document.getElementById("text-button1");
-  element.innerHTML = "１　食べたことではない（創世記3章）";
+  element.innerHTML = "１　食べる前3章）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay2() {
@@ -30,7 +30,7 @@ function clickDisplay6() {
 }
 function clickDisplay7() {
   const element = document.getElementById("text-button7");
-  element.innerHTML = "７　ヤコブ1:23";
+  element.innerHTML = "７　「鏡」ヤコブ1:23";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay8() {
@@ -40,7 +40,7 @@ function clickDisplay8() {
 }
 function clickDisplay9() {
   const element = document.getElementById("text-button9");
-  element.innerHTML = "９　どこの聖句？";
+  element.innerHTML = "９　どこの聖句？出？マタイ？";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay10() {
@@ -65,12 +65,12 @@ function clickDisplay13() {
 }
 function clickDisplay14() {
   const element = document.getElementById("text-button14");
-  element.innerHTML = "１４　フィロス＋ストルゲー＝優しい愛情";
+  element.innerHTML = "１４　フィロス＋ストルゲー＝「優しい愛情」";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay15() {
   const element = document.getElementById("text-button15");
-  element.innerHTML = "１５　戦いに対する見方（代一11:15-19）";
+  element.innerHTML = "１５　戦いを愛してた？（代一11:15-19）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay16() {
@@ -110,7 +110,7 @@ function clickDisplay22() {
 }
 function clickDisplay23() {
   const element = document.getElementById("text-button23");
-  element.innerHTML = "２３　捕虜の仕事（エフェ4:8）";
+  element.innerHTML = "２３　捕虜の仕事は？（エフェ4:8）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay24() {
@@ -120,7 +120,7 @@ function clickDisplay24() {
 }
 function clickDisplay25() {
   const element = document.getElementById("text-button25");
-  element.innerHTML = "２５　天使長イエス（啓14:15）";
+  element.innerHTML = "２５　天使長イエスなのに？（啓14:15）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay26() {
@@ -135,27 +135,27 @@ function clickDisplay27() {
 }
 function clickDisplay28() {
   const element = document.getElementById("text-button28");
-  element.innerHTML = "２８　イザ43:25";
+  element.innerHTML = "２８　跡を消せる（イザ43:25）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay29() {
   const element = document.getElementById("text-button29");
-  element.innerHTML = "２９　ということは？（啓7:13,14）";
+  element.innerHTML = "２９　誰と誰？（啓7:13,14）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay30() {
   const element = document.getElementById("text-button30");
-  element.innerHTML = "３０　代一23:4,5;25:7";
+  element.innerHTML = "３０　1：13（代一23:4,5;25:7）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay31() {
   const element = document.getElementById("text-button31");
-  element.innerHTML = "３１　コリ一15:53,54";
+  element.innerHTML = "３１　大きな報い（コリ一15:53,54）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay32() {
   const element = document.getElementById("text-button32");
-  element.innerHTML = "３２　経験より";
+  element.innerHTML = "３２　クラスメイトの経験";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay33() {
@@ -165,7 +165,7 @@ function clickDisplay33() {
 }
 function clickDisplay34() {
   const element = document.getElementById("text-button34");
-  element.innerHTML = "３４  創3:22,23";
+  element.innerHTML = "３４  まだなかった（創3:22,23）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay35() {
@@ -175,7 +175,7 @@ function clickDisplay35() {
 }
 function clickDisplay36() {
   const element = document.getElementById("text-button36");
-  element.innerHTML = "３６　神権的な戦略だった";
+  element.innerHTML = "３６　神権的な戦略？";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay37() {
@@ -185,22 +185,22 @@ function clickDisplay37() {
 }
 function clickDisplay38() {
   const element = document.getElementById("text-button38");
-  element.innerHTML = "３８　ゼカ9:9";
+  element.innerHTML = "３８　雌ろばの子？ゼカ9:9";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay39() {
   const element = document.getElementById("text-button39");
-  element.innerHTML = "３９　写本と自重作用";
+  element.innerHTML = "３９　写本と自浄作用";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay40() {
   const element = document.getElementById("text-button40");
-  element.innerHTML = "４０　オートモード";
+  element.innerHTML = "４０　オートモード開始";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay41() {
   const element = document.getElementById("text-button41");
-  element.innerHTML = "４１　コンパス（へブ5:14）";
+  element.innerHTML = "４１　コンパスのように（へブ5:14）";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay42() {
@@ -250,7 +250,7 @@ function clickDisplay50() {
 }
 function clickDisplay51() {
   const element = document.getElementById("text-button51");
-  element.innerHTML = "５１　ダビデの甥っ子　サム二 21:15-17";
+  element.innerHTML = "５１　ダビデの親戚　サム二 21:15-17";
   element.style.backgroundColor = "pink";
 }
 function clickDisplay52() {
