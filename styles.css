@@ -33,6 +33,7 @@ h1 {
 }
 
 .answer {
+  color: #fb3737;
   display: none;
   margin-top: 10px;
 }
