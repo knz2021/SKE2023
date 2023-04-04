@@ -1,76 +1,518 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-
-    <title>SKE2023</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <title>学校で学んだこと</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>学校で学んだこと</h1>
-    <div class="box0"><img src="yuenadan.png" alt="picture" width="125px" height="250px"></div>
-    <div class="wrap_content">
-        <div class="box"id="text-button1" onclick="clickDisplay1()">１　👑エバの最大の失敗？</div>
-        <div class="box"id="text-button2" onclick="clickDisplay2()">２　ダニエルはすごい！</div>
-        <div class="box"id="text-button3" onclick="clickDisplay3()">３　サタンに祈りは聞かれてる？</div>
-        <div class="box"id="text-button4" onclick="clickDisplay4()">４　👑模範的な祈りから学ぶ？</div>
-        <div class="box"id="text-button5" onclick="clickDisplay5()">５　お金で幸せは買える？</div>
-        <div class="box"id="text-button6" onclick="clickDisplay6()">６　創造の六日間の驚き</div>
-        <div class="box"id="text-button7" onclick="clickDisplay7()">７　聖書は窓それとも？</div>
-        <div class="box"id="text-button8" onclick="clickDisplay8()">８　１タラントは少ない？</div>
-        <div class="box"id="text-button9" onclick="clickDisplay9()">９　エホバとイエスの名刺？</div>
-        <div class="box"id="text-button10" onclick="clickDisplay10()">１０　👑エフタの財産とは？</div>
-        <div class="box"id="text-button11" onclick="clickDisplay11()">１１　マノアの妻の手本</div>
-        <div class="box"id="text-button12" onclick="clickDisplay12()">１２　👑雷の子、使徒ヨハネ</div>
-        <div class="box"id="text-button13" onclick="clickDisplay13()">１３　フォイベは実は力持ち？</div>
-        <div class="box"id="text-button14" onclick="clickDisplay14()">１４　フィロストルゴスって？</div>
-        <div class="box"id="text-button15" onclick="clickDisplay15()">１５　👑ダビデと血</div>
-        <div class="box"id="text-button16" onclick="clickDisplay16()">１６　「残りの死者」って？</div>
-        <div class="box"id="text-button17" onclick="clickDisplay17()">１７　サラの模範</div>
-        <div class="box"id="text-button18" onclick="clickDisplay18()">１８　イエスは集会を楽しんだ？</div>
-        <div class="box"id="text-button19" onclick="clickDisplay19()">１９　オネシフォロの家の人？</div>
-        <div class="box"id="text-button20" onclick="clickDisplay20()">２０　👑エホバが愚か者を装う？</div>
-        <div class="box"id="text-button21" onclick="clickDisplay21()">２１　アロンの息子の卒業式</div>
-        <div class="box"id="text-button22" onclick="clickDisplay22()">２２　ルツ記はルツの物語？</div>
-        <div class="box"id="text-button23" onclick="clickDisplay23()">２３　人々の賜物？</div>
-        <div class="box"id="text-button24" onclick="clickDisplay24()">２４　イエスの奉仕報告？！</div>
-        <div class="box"id="text-button25" onclick="clickDisplay25()">２５　別の天使とイエス</div>
-        <div class="box"id="text-button26" onclick="clickDisplay26()">２６　へマンって誰？</div>
-        <div class="box"id="text-button27" onclick="clickDisplay27()">２７　👑現在の贖罪の日はいつ？</div>
-        <div class="box"id="text-button28" onclick="clickDisplay28()">２８　過去は修正できる？</div>
-        <div class="box"id="text-button29" onclick="clickDisplay29()">２９　24人の長老とヨハネのやり取り？</div>
-        <div class="box"id="text-button30" onclick="clickDisplay30()">３０　288/4000</div>
-        <div class="box"id="text-button31" onclick="clickDisplay31()">３１　不滅性と不朽性</div>
-        <div class="box"id="text-button32" onclick="clickDisplay32()">３２　83歳の援助奉仕者？</div>
-        <div class="box"id="text-button33" onclick="clickDisplay33()">３３　奇妙な空白の期間</div>
-        <div class="box"id="text-button34" onclick="clickDisplay34()">３４　アダムと永遠の命</div>
-        <div class="box"id="text-button35" onclick="clickDisplay35()">３５　試練と祝福の色</div>
-        <div class="box"id="text-button36" onclick="clickDisplay36()">３６　ヒゼキヤは信仰が弱まっていた？</div>
-        <div class="box"id="text-button37" onclick="clickDisplay37()">３７　ノアの大洪水は人類の滅び？</div>
-        <div class="box"id="text-button38" onclick="clickDisplay38()">３８　イエスはロバ、ソロモンは？</div>
-        <div class="box"id="text-button39" onclick="clickDisplay39()">３９　聖書の保存方法は？</div>
-        <div class="box"id="text-button40" onclick="clickDisplay40()">４０　神は休まれたとは？</div>
-        <div class="box"id="text-button41" onclick="clickDisplay41()">４１　聖なる力に導かれる人とは？</div>
-        <div class="box"id="text-button42" onclick="clickDisplay42()">４２　ベテルとベツレヘムの共通点</div>
-        <div class="box"id="text-button43" onclick="clickDisplay43()">４３　イザヤ6章8節の調整点</div>
-        <div class="box"id="text-button44" onclick="clickDisplay44()">４４　👑ルカの足跡</div>
-        <div class="box"id="text-button45" onclick="clickDisplay45()">４５　サタンの主要な攻撃対象</div>
-        <div class="box"id="text-button46" onclick="clickDisplay46()">４６　啓示の書のまとめの聖句？</div>
-        <div class="box"id="text-button47" onclick="clickDisplay47()">４７　ダビデとソロモンの違い</div>
-        <div class="box"id="text-button48" onclick="clickDisplay48()">４８　死へのバプテスマはいつから始まる？</div>
-        <div class="box"id="text-button49" onclick="clickDisplay49()">４９　14万4千人の名簿ある？</div>
-        <div class="box"id="text-button50" onclick="clickDisplay50()">５０　アーメン,アーメン</div>
-        <div class="box"id="text-button51" onclick="clickDisplay51()">５１　アビシャイって誰？</div>
-        <div class="box"id="text-button52" onclick="clickDisplay52()">５２　レビ人は何歳で引退？</div>
-        <div class="box"id="text-button53" onclick="clickDisplay53()">５３　フランス革命と啓示の書の関係</div>
-        <div class="box"id="text-button54" onclick="clickDisplay54()">５４　宇宙の存在意義は？</div>
-        <div class="box"id="text-button55" onclick="clickDisplay55()">５５　👑フィリポはなぜサマリアに？</div>
-        <div class="box"id="text-button56" onclick="clickDisplay56()">５６　SKEの中の独身の姉妹たち</div>
-        <div class="box"id="text-button57" onclick="clickDisplay57()">５７　ルデアとフィリピ会衆</div>
-        <div class="box"id="text-button58" onclick="clickDisplay58()">５８　世界に会衆はいくつ？</div>
-        <div class="box"id="text-button59" onclick="clickDisplay59()">５９　👑家でのモーセとイエスの位置</div>
-        <div class="box"id="text-button60" onclick="clickDisplay60()">６０　カタ　タクシン？</div>
-        <div class="box"id="text-button61" onclick="clickDisplay61()">６１　👑聖書の原則と素数</div>
-        <div class="box"id="text-button62" onclick="clickDisplay62()">６２　ローマ会衆の成員構成</div>
-        <div class="box"id="text-button63" onclick="clickDisplay63()">６３　三つ寄りの綱は同じ太さ？</div>
+  <h1>学校で学んだこと</h1>
+  <div class="quiz-container">
+    <div class="question">
+      <div class="prompt">
+        <p>1，👑エバの失敗？</p>
+      </div>
+      <div class="answer">
+        <p>1，創世3章</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>2，ダニエルはすごい！</p>
+      </div>
+      <div class="answer">
+        <p>2，誰と並列？（エゼ14:20）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>3，サタンに祈りは聞かれてる？</p>
+      </div>
+      <div class="answer">
+        <p>3，ペテ二2:4,ルカ4:34,ヤコ4:7</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>4，👑模範的な祈りから学ぶ？</p>
+      </div>
+      <div class="answer">
+        <p>4，マタイ6:9-14</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>5，お金で幸せは買える？</p>
+      </div>
+      <div class="answer">
+        <p>5，マタイ6:4</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>6，創造の六日間の驚き</p>
+      </div>
+      <div class="answer">
+        <p>6，天使が驚いたのはどの日？</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>7，聖書は窓それとも？</p>
+      </div>
+      <div class="answer">
+        <p>7，「鏡」ヤコブ1:23</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>8，１タラントは少ない？</p>
+      </div>
+      <div class="answer">
+        <p>8，マタイ18:24（注釈）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>9，エホバとイエスの名刺？</p>
+      </div>
+      <div class="answer">
+        <p>9，どこの聖句？出？マタイ？</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>10，👑エフタの財産とは？</p>
+      </div>
+      <div class="answer">
+        <p>10，裁き人11章</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>11，👑マノアの妻の手本</p>
+      </div>
+      <div class="answer">
+        <p>11，裁き人13:1-23</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>12，👑雷の子、使徒ヨハネ</p>
+      </div>
+      <div class="answer">
+        <p>12，雷の子が統治体に？！</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>13，フォイベは実は力持ち？</p>
+      </div>
+      <div class="answer">
+        <p>13，ローマ16:1,2</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>14，フィロストルゴスって？</p>
+      </div>
+      <div class="answer">
+        <p>14，フィロス＋ストルゲー＝「優しい愛情」</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>15，👑ダビデと戦い</p>
+      </div>
+      <div class="answer">
+        <p>15，血に対する見方（代一11:15-19）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>16，👑「残りの死者」って？</p>
+      </div>
+      <div class="answer">
+        <p>16，今の私たちは？（啓20:5）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>17，サラの模範</p>
+      </div>
+      <div class="answer">
+        <p>17，創12-17章</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>18，イエスは集会を楽しんだ？ </p>
+      </div>
+      <div class="answer">
+        <p>18，ルカ4:16-21</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>19，オネシフォロの家の人？</p>
+      </div>
+      <div class="answer">
+        <p>19，なぜ家族宛て？</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>20，👑エホバが愚か者を装う？</p>
+      </div>
+      <div class="answer">
+        <p>20，出32:9,10,11;創49:10</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>21，アロンの息子の卒業式</p>
+      </div>
+      <div class="answer">
+        <p>21，レビ8:35,9:24,10:1</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>22，ルツ記はルツの物語？</p>
+      </div>
+      <div class="answer">
+        <p>22，エホバを知れる</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>23，人々の賜物って？</p>
+      </div>
+      <div class="answer">
+        <p>23，捕虜の仕事は？（エフェ4:8）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>24，イエスの奉仕報告？！</p>
+      </div>
+      <div class="answer">
+        <p>24，0→500→120→3000→5000</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>25，別の天使とイエス</p>
+      </div>
+      <div class="answer">
+        <p>25，天使長イエスなのに？（啓14:15）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>26，へマンって誰？</p>
+      </div>
+      <div class="answer">
+        <p>26，誰の孫？（代一15:17）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>27，👑現在の贖罪の日はいつ？</p>
+      </div>
+      <div class="answer">
+        <p>27，ヘブ9:11,12</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>28，過去は修正できる？</p>
+      </div>
+      <div class="answer">
+        <p>28，跡を消せる（イザ43:25）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>29，24人の長老とヨハネのやり取り？</p>
+      </div>
+      <div class="answer">
+        <p>29，誰と誰？（啓7:13,14）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>30，288/4000</p>
+      </div>
+      <div class="answer">
+        <p>30，代一23:4,5;25:7</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>31，不滅性と不朽性</p>
+      </div>
+      <div class="answer">
+        <p>31，大きな報い（コリ一15:53,54）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>32，83歳の援助奉仕者？</p>
+      </div>
+      <div class="answer">
+        <p>32，クラスメイトの経験</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>33，奇妙な空白の期間</p>
+      </div>
+      <div class="answer">
+        <p>33，バビロン捕囚（エレ25:8-11）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>34，アダムと永遠の命</p>
+      </div>
+      <div class="answer">
+        <p>34，持ってた？（創3:22,23）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>35，試練と祝福の色</p>
+      </div>
+      <div class="answer">
+        <p>35，ヤコブ1:2,17</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>36，ヒゼキヤは信仰が弱まっていた？</p>
+      </div>
+      <div class="answer">
+        <p>36，神権的な戦略だった？！</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>37，ノアの大洪水は人類の滅び？</p>
+      </div>
+      <div class="answer">
+        <p>37，人類ゼロの危機</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>38，イエスはロバ、ソロモンは？</p>
+      </div>
+      <div class="answer">
+        <p>38，雌ろばの子？ゼカ9:9"</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>39，聖書の保存方法は？</p>
+      </div>
+      <div class="answer">
+        <p>39，写本と自浄作用</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>40，「神は休まれた」とは？</p>
+      </div>
+      <div class="answer">
+        <p>40，オートモード開始</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>41，聖なる力に導かれる人とは？</p>
+      </div>
+      <div class="answer">
+        <p>41，コンパスのよう（へブ5:14）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>42，ベテルとベツレヘムの共通点</p>
+      </div>
+      <div class="answer">
+        <p>42，「ベト」＋「エール」</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>43，イザヤ6章8節の調整点</p>
+      </div>
+      <div class="answer">
+        <p>43，「！」</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>44，👑ルカの足跡</p>
+      </div>
+      <div class="answer">
+        <p>44，名を残さない</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>45，サタンの主要な攻撃対象</p>
+      </div>
+      <div class="answer">
+        <p>45，翻訳者</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>46，啓示の書のまとめの聖句？</p>
+      </div>
+      <div class="answer">
+        <p>46，啓1:5,6</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>47，ダビデとソロモンの違い</p>
+      </div>
+      <div class="answer">
+        <p>47，詩19:7</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>48，死へのバプテスマとは？</p>
+      </div>
+      <div class="answer">
+        <p>48，いつから？いつまで？（ロマ6:3）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>49，14万4千人の名簿ある？</p>
+      </div>
+      <div class="answer">
+        <p>49，詩編87:5,6</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>50，「アーメン,アーメン」</p>
+      </div>
+      <div class="answer">
+        <p>50，ヨハネ1:51（注釈）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>51，アビシャイって？</p>
+      </div>
+      <div class="answer">
+        <p>51，ダビデの甥っ子（サム二 21:15-17）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>52，レビ人は何歳で引退？</p>
+      </div>
+      <div class="answer">
+        <p>52，民数8:24-26</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>53，フランス革命と啓示の書の関係</p>
+      </div>
+      <div class="answer">
+        <p>53，啓17:16;18:1-24</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>54，宇宙の存在意義は？</p>
+      </div>
+      <div class="answer">
+        <p>54，伝3:11</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>55，👑フィリポはなぜサマリアに？</p>
+      </div>
+      <div class="answer">
+        <p>55，使徒8:5</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>56，SKEの中の独身の姉妹たち</p>
+      </div>
+      <div class="answer">
+        <p>56，統治体とギレアデ教訓者の手本</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>57，ルデアとフィリピ会衆</p>
+      </div>
+      <div class="answer">
+        <p>57，使徒6:15，フィリ4:16</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>58，世界に会衆はいくつ？</p>
+      </div>
+      <div class="answer">
+        <p>58，「エックレーシア」エフェ1:22,23</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>59，👑モーセとイエスの位置</p>
+      </div>
+      <div class="answer">
+        <p>59，「家」のどこ？（へブライ3:2-5）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>60，「カタ　タクシン」？</p>
+      </div>
+      <div class="answer">
+        <p>60，コリ一14:40,民数1:52</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>61，👑聖書の原則と素数</p>
+      </div>
+      <div class="answer">
+        <p>61，共通点</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>62，ローマ会衆の成員構成</p>
+      </div>
+      <div class="answer">
+        <p>62，市民＋哲学＋伝統（ローマ12:2）</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">
+        <p>63，三つ寄りの綱は同じ太さ？</p>
+      </div>
+      <div class="answer">
+        <p>63，伝道4:12</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
