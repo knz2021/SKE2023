@@ -20,6 +20,7 @@ h1 {
 }
 
 .question {
+  color: #3f0bcf;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -32,7 +33,7 @@ h1 {
 }
 
 .question:hover {
-  background-color: #eee;
+  background-color: #f8f8f8;
 }
 
 .answer {
